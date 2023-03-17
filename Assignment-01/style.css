@@ -1,0 +1,90 @@
+.top{
+    display: flex;
+}
+.About{
+    width: 400px;
+    text-align: left;
+    padding-right: 100px;
+}
+img{
+    border-radius: 50%;
+    width: 200px;
+    border: solid 5px blue;
+    
+}
+.Contact-Detail{
+    padding-left: 300px;
+    padding-top: 50px;
+}
+
+.languages{
+    display: flex;
+}
+.language-2{
+    padding-left: 852px;
+}
+.blue{
+    color:rgb(6, 58, 141) ;
+}
+.skills{
+    display: flex;
+}
+.skills1,.skills2,.skills3,.skills4,.skills5,.skills6{
+    border: 2px dotted;
+    background-color: lightgray;
+    width: 100px;
+}
+.skills1{
+    margin-right: 100px;
+    text-align: center;
+}
+
+.skills2{
+    margin-right: 100px;
+    text-align: center;
+}
+.skills3{
+    margin-right: 100px;
+    text-align: center;
+}
+
+.skills4{
+    margin-right: 100px;
+    text-align: center;
+}
+.skills5{
+    margin-right: 100px;
+    text-align: center;
+}
+.skills6{
+    margin-right: 100px;
+    text-align: center;
+}
+
+.interests1,.interests2,.interests3,.interests4{
+    border: 2px dotted;
+    background-color: lightgray;
+    width: 150px;
+}
+.interests{
+    display: flex;
+}
+.interests1{
+    margin-right: 100px;
+    text-align: center;
+}
+.interests2{
+    margin-right: 100px;
+    text-align: center;
+}
+.interests3{
+    margin-right: 100px;
+    text-align: center;
+}
+.interests4{
+    margin-right: 100px;
+    text-align: center;
+}
+a:hover{
+    color: crimson;
+}

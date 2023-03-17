@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form</title>
+    <style>
+        .abc{
+            text-align: center;
+        }
+        .bcd{
+            display: flex;
+            justify-content: center;
+        }
+        *{
+            background-color: #FAF7F0;
+            color:#1f3fe4 ;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="abc">
+
+        <h1> <u>Enter Your Details</u></h1>
+    </div>
+    <div class="bcd">
+
+                <fieldset>
+                    <legend>Photo</legend>
+                    <label for="photo"></label>
+                    <img src="./png-clipart-user-computer-icons-person-icon-cdr-logo.png" alt="photo" width="200px"><br>
+                    <input type="file" id="photo">
+
+                </fieldset>
+
+            <fieldset>
+                <Legend>Personal Details</Legend>
+                <label for="first">First Name:</label>
+                    <input type="text" id="first" placeholder="Enter First Name"> <br><br>
+
+
+                    <label for="last">Last Name:</label>
+                    <input type="text" id="last" placeholder="Enter Last Name"><br><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="Enter Your Email"><br><br>
+
+                    <label for="number">Phone Number:</label>
+                    <input type="number" id="number" placeholder="Enter  Phone Number"><br><br>
+
+                    <label for="DOB">DOB:</label>
+                    <input type="date" name="DOB" id="DOB"> <br><br>
+
+                    <label for="gender">Gender:</label>
+                    <input type="radio" id="gen" name="gender" value="Male">Male 
+                    <input type="radio" id="gen" name="gender" value="Female">Female<input type="radio" id="gen" name="gender" value="Other">Other <br><br>
+            </fieldset>
+
+</div>
+
+<div class="bcd">
+
+                <fieldset style="width: 253px;">
+                    <legend>Address</legend>
+                    <label for="address">Line-1 : </label>
+                    <input type="text" id="address" > <br><br>
+
+                    
+                    <label for="address">Line-2: </label>
+                    <input type="text"  id="address" > <br><br>
+                    
+                    <label for="address">City: </label>
+                    <input type="text"  id="address" > <br><br>
+                    
+                    <label for="address">State: </label>
+                    <input type="text"  id="address" > <br><br>
+                
+
+                    <label for="Country">Country:</label>
+                    <input type="text" list="country">
+                    <datalist id="country">
+                        <option value="INDIA">
+                        <option value="USA">
+                        <option value="China">
+                        <optio value="Canada">
+                        <option value="Nepal">
+                        <option value="Russia">
+                        </option>
+                    </datalist> <br><br>
+                </fieldset>
+
+                <fieldset style="width: 253px;">
+
+                    <legend>Education</legend>
+                    <label for="primary ">Primary :</label>
+                    <input type="text" id="primary Education" placeholder="Enter Percentage"><br><br>
+                    <label for="dropdown">Secondary:</label>
+                    <select name="dropdown" id="dropdown" autofocus="true">
+                        <option disabled selected>Select
+                        <option value="10th">Medical
+                        <option value="12th">Non-Medical
+                        <option value="11th">Arts
+                        <option value="11th">Commerce
+                    </select> <br><br>
+                    <label for="Degree">Degree:</label>
+                    <input type="text" id="Degree" placeholder="Enter Percentage"> <br><br>
+
+                    <label for="Work Experiance">Work Experiance:</label><br>
+                    <textarea name="message" rows="5" cols="34"></textarea>
+                    
+                </fieldset>
+
+</div>
+</body>
+</html>
