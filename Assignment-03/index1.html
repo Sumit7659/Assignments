@@ -10,18 +10,19 @@
             display: flex;
             justify-content: center;
         }
-        *{
+        /* *{
             background-color: #FAF7F0;
             color:#1f3fe4 ;
-        }
-        
-
+        } */
     </style>
+    
 </head>
 <body>
+    <div id="form">
     <div class="abc">
 
-        <h1> <u>Enter Your Details</u></h1>
+        <h1 id="heading"> <u>Enter Your Details</u></h1>
+        <input type="checkbox" id="check" checked>
     </div>
     <div class="bcd">
 
@@ -37,7 +38,6 @@
                 <Legend>Personal Details</Legend>
                 <label for="first">First Name:</label>
                     <input type="text" id="first" placeholder="Enter First Name"> <br><br>
-
 
                     <label for="last">Last Name:</label>
                     <input type="text" id="last" placeholder="Enter Last Name"><br><br>
@@ -109,7 +109,8 @@
                     <textarea name="message" rows="5" cols="34"></textarea>
                     
                 </fieldset>
-
+<script src="./code.js"></script>
+</div>
 </div>
 </body>
 </html>
