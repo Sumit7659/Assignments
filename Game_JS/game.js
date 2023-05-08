@@ -119,6 +119,7 @@ function startGame() {
 	container.childNodes.forEach(node =>
 		node.firstElementChild.classList.remove('matchingcards')
 	);
+	
 	startWatching(seconds, minutes);
 }
 
